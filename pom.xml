@@ -7,6 +7,8 @@
 	<version>1.0</version>
 	<name>math</name>
 	<url>http://www.inf.unideb.hu/~jeszy/progkorny/</url>
+	
+	<inceptionYear>2015</inceptionYear>
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -14,10 +16,12 @@
 			<!-- license update-license. -->
 		</license>
 	</licenses>
+	
 	<organization>
-		<name>Debreceni Egyetem</name>
-		<url>http://www.inf.unideb.hu</url>                   
+		<name>Debreceni Egyetem - Informatikai Kar</name>
+		<url>http://www.inf.unideb.hu</url>
 	</organization>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -26,10 +30,12 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 	</properties>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -53,6 +59,7 @@
 			</plugin>
 		</plugins>
 	</build>
+	
 	<reporting>
 		<plugins>
 			<plugin>
@@ -83,4 +90,5 @@
 			</plugin>
 		</plugins>
 	</reporting>
+	
 </project>
